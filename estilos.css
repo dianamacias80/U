@@ -1,0 +1,555 @@
+html{
+    font-size:62.5%; /*es igual a 10px*/
+    }
+    
+    
+    
+    body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    .contenedor{
+    max-width:1200px;
+    margin: 0 auto;
+    }
+
+
+    .contenedor2{
+    max-width:1200px;
+    margin: 0 auto;   
+    }
+    
+    
+    .seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+
+
+    .fw-300{
+    font-weight:300 ;
+    }
+
+
+    .center-texto{
+    text-align:center;
+    }
+    
+    
+    .site-header.inicio{
+    background:url(fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10vh;
+    min-height: 500px;
+    min-width: 100px;
+    }
+
+
+    .barra{
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    margin-right: 1px;
+    font-size: 25px;    
+    }
+
+
+    .navegacion a{
+    color:yellow;
+    text-decoration: none ;
+    font-size: 2.45rem;
+    margin-right: 2rem;
+    }
+
+
+    .navegacion a:hover{
+        color:red;   
+    }
+
+
+    .navegacion2  a:hover{
+    color:red;
+    }
+
+
+    .navegacion2 a{
+    color: rgb(37, 128, 25);
+    text-decoration: none ;
+    font-size: 2.45rem;
+    margin-right: 2rem;
+    }
+
+
+    .navegacion2  a:hover{
+    color:red
+    }
+
+
+    h1{
+    color:green;
+    }
+    
+    .relieve{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px rgb(12, 119, 12);
+    font-size:45px;
+    }
+
+
+    .encabezado-nosotros{
+    text-align: center;
+    font-size:25px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px red;
+    
+    }
+
+
+    .iconos-nosotros {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icono{
+    flex-basis:  33.3% ;
+    text-align: center;
+    justify-content: space-between;
+    }
+
+
+    .icono h3{
+    text-transform: uppercase;
+    }
+
+    
+    .profesores{
+    
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icon{
+    
+    flex-basis:  33.3% ;
+    text-align: center;
+        
+    justify-content: space-between;
+    }
+
+
+    .icono h2{
+    text-transform: uppercase;
+    }
+    
+    
+    .profesores2{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icon{
+    flex-basis:  33.3% ;
+    text-align: center;
+    justify-content: space-between;
+    }
+
+
+    .icono h2{
+    text-transform: uppercase;
+    }
+    
+    .redes{
+    font-weight:300 ;
+    text-align: right;
+    font-size:10px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(77, 173, 252);
+    }
+
+
+    .face{
+    flex-basis:  50.3%;
+    font-size: 1rem;
+    margin-right: 5rem;
+    }
+        
+
+    .testimonial{
+    background-color: rgb(142, 245, 142);
+    font-size: 1.5rem;
+    padding:1rem;
+    border-radius: 2rem;
+    width: 150rem;
+    height: 15rem;
+    }
+    
+
+    .site-footer{
+    background-color: #81887c;
+    margin: 0;
+    }
+
+
+    .copyright{
+     margin: 0;
+     color: rgb(255, 255, 255);
+    }
+
+
+    .copyrightt{
+     margin: 0;
+    color: rgb(37, 128, 25);
+    }
+
+
+    .site-footerr{
+    margin: 0;
+    }
+
+
+    .contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    /*CONTACTO*/
+    label {
+    display: block;
+    font-size: 2rem;
+    }
+
+
+    input[type="text"],[type="tel"],[type="email"]{
+    padding:1rem;
+    display:block;
+    width: 97%;
+    background-color:rgb(233, 243, 233);
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;        
+    }
+    
+    
+    fieldset {
+    background-color:white;
+    color: rgb(21, 94, 11);
+    border:2px solid green;
+    }
+
+
+    legend {
+    padding: 5px;
+    border: 2px solid green;
+    font-size: 2rem;
+    }
+
+
+    input[type=submit]{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: 0px;
+    background-color: rgb(43, 226, 83);
+    font-size: large;
+    }
+
+
+    input[type="radio"]{
+    width: auto;
+    margin:0;
+    }
+
+    .rese{
+    font-size: 2rem;
+    text-justify: auto;
+    }html{
+    font-size:62.5%; /*es igual a 10px*/
+    }
+    
+    
+    
+    body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    }
+    
+    
+    .contenedor{
+    max-width:1200px;
+    margin: 0 auto;
+    }
+
+
+    .contenedor2{
+    max-width:1200px;
+    margin: 0 auto;   
+    }
+    
+    
+    .seccion{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+    }
+
+
+    .fw-300{
+    font-weight:300 ;
+    }
+
+
+    .center-texto{
+    text-align:center;
+    }
+    
+    
+    .site-header.inicio{
+    background:url(fondo.jpg);
+    background-position: center center;
+    background-size: cover;
+    height: 10vh;
+    min-height: 500px;
+    min-width: 100px;
+    }
+
+
+    .barra{
+    display: flex;
+    justify-content: right;
+    padding-top: 10px;
+    margin-right: 1px;
+    font-size: 25px;    
+    }
+
+
+    .navegacion a{
+    color:yellow;
+    text-decoration: none ;
+    font-size: 2.45rem;
+    margin-right: 2rem;
+    }
+
+
+    .navegacion a:hover{
+        color:red;   
+    }
+
+
+    .navegacion2  a:hover{
+    color:red;
+    }
+
+
+    .navegacion2 a{
+    color: rgb(37, 128, 25);
+    text-decoration: none ;
+    font-size: 2.45rem;
+    margin-right: 2rem;
+    }
+
+
+    .navegacion2  a:hover{
+    color:red
+    }
+
+
+    h1{
+    color:green;
+    }
+    
+    .relieve{
+    -webkit-text-fill-color: white;
+    -webkit-text-stroke: 3px rgb(12, 119, 12);
+    font-size:45px;
+    }
+
+
+    .encabezado-nosotros{
+    text-align: center;
+    font-size:25px;
+    -webkit-text-fill-color: black;
+    -webkit-text-stroke: 1px red;
+    
+    }
+
+
+    .iconos-nosotros {
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icono{
+    flex-basis:  33.3% ;
+    text-align: center;
+    justify-content: space-between;
+    }
+
+
+    .icono h3{
+    text-transform: uppercase;
+    }
+
+    
+    .profesores{
+    
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icon{
+    
+    flex-basis:  33.3% ;
+    text-align: center;
+        
+    justify-content: space-between;
+    }
+
+
+    .icono h2{
+    text-transform: uppercase;
+    }
+    
+    
+    .profesores2{
+    display:flex;
+    justify-content: space-between;
+    text-align: center;
+    }
+
+
+    .icon{
+    flex-basis:  33.3% ;
+    text-align: center;
+    justify-content: space-between;
+    }
+
+
+    .icono h2{
+    text-transform: uppercase;
+    }
+    
+    .redes{
+    font-weight:300 ;
+    text-align: right;
+    font-size:10px;
+    -webkit-text-fill-color: rgb(255, 255, 255);
+    -webkit-text-stroke: 1px rgb(77, 173, 252);
+    }
+
+
+    .face{
+    flex-basis:  50.3%;
+    font-size: 1rem;
+    margin-right: 5rem;
+    }
+        
+
+    .testimonial{
+    background-color: rgb(142, 245, 142);
+    font-size: 1.5rem;
+    padding:1rem;
+    border-radius: 2rem;
+    width: 150rem;
+    height: 15rem;
+    }
+    
+
+    .site-footer{
+    background-color: #81887c;
+    margin: 0;
+    }
+
+
+    .copyright{
+     margin: 0;
+     color: rgb(255, 255, 255);
+    }
+
+
+    .copyrightt{
+     margin: 0;
+    color: rgb(37, 128, 25);
+    }
+
+
+    .site-footerr{
+    margin: 0;
+    }
+
+
+    .contenedor-footer{
+    padding: 3rem 0;
+    display: flex;
+    justify-content: space-between;
+    }
+    
+    
+    /*CONTACTO*/
+    label {
+    display: block;
+    font-size: 2rem;
+    }
+
+
+    input[type="text"],[type="tel"],[type="email"]{
+    padding:1rem;
+    display:block;
+    width: 97%;
+    background-color:rgb(233, 243, 233);
+    margin-bottom: 2rem;
+    border: none;
+    border-radius: 1rem;        
+    }
+    
+    
+    fieldset {
+    background-color:white;
+    color: rgb(21, 94, 11);
+    border:2px solid green;
+    }
+
+
+    legend {
+    padding: 5px;
+    border: 2px solid green;
+    font-size: 2rem;
+    }
+
+
+    input[type=submit]{
+    position: relative;
+    width: 70px;
+    height: 50px;
+    border-radius: 5px;
+    margin-left: 50px;
+    border: 0px;
+    background-color: rgb(43, 226, 83);
+    font-size: large;
+    }
+
+
+    input[type="radio"]{
+    width: auto;
+    margin:0;
+    }
+
+    .rese{
+    font-size: 2rem;
+    text-justify: auto;
+    }
+    
+      
